@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/python-3.14-0b3a5c" alt="Python 3.14"/>
   <img src="https://img.shields.io/badge/Postgres-pgvector-0b3a5c" alt="pgvector"/>
   <img src="https://img.shields.io/badge/cache-Redis-0b3a5c" alt="Redis"/>
-  <a href="https://neohealth-gpzo.onrender.com"><img src="https://img.shields.io/badge/live%20demo-open-7FD3E6" alt="Live demo"/></a>
+  <a href="https://regulense.onrender.com"><img src="https://img.shields.io/badge/live%20demo-open-7FD3E6" alt="Live demo"/></a>
 </p>
 
 ---
@@ -112,7 +112,7 @@ python -m ingestion.download && python -m ingestion.ingest && python -m ingestio
 python -m ingestion.load_db && python -m ingestion.rechunk
 ```
 
-Or skip the setup and try the [live demo](https://neohealth-gpzo.onrender.com). It runs on a free tier, so the first request may take about 30 s to wake it.
+Or skip the setup and try the [live demo](https://regulense.onrender.com). It runs on a free tier, so the first request may take about 30 s to wake it.
 
 ## Use it for another regulator
 

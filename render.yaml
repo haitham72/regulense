@@ -14,7 +14,7 @@ services:
       - key: LANGSMITH_API_KEY
         sync: false
       - key: ALLOWED_ORIGINS
-        value: https://neohealth-gpzo.onrender.com,http://localhost:5173
+        value: https://regulense.onrender.com,http://localhost:5173
       - key: DAILY_OPENAI_CALL_CAP
         value: "300"
       - key: OPENAI_API_KEY
