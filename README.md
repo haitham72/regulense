@@ -15,6 +15,12 @@
   <a href="https://regulense.onrender.com"><img src="https://img.shields.io/badge/live%20demo-open-7FD3E6" alt="Live demo"/></a>
 </p>
 
+<p align="center">
+  <img src="docs/screenshots/demo.png" width="100%" alt="ReguLense chat: a Dubai telehealth licensing question, a cited answer, the source documents, and follow-up questions"/>
+  <br/>
+  <sub>The real interface, with a sample answer so the layout stays visible when the <a href="https://regulense.onrender.com">live demo</a> is asleep. The free server can take about a minute to wake.</sub>
+</p>
+
 ---
 
 ReguLense is an open-source retrieval-augmented Q&A system over the public health regulation of the UAE:
@@ -112,7 +118,7 @@ python -m ingestion.download && python -m ingestion.ingest && python -m ingestio
 python -m ingestion.load_db && python -m ingestion.rechunk
 ```
 
-Or skip the setup and try the [live demo](https://regulense.onrender.com). It runs on a free tier, so the first request may take about 30 s to wake it.
+Or skip the setup and try the [live demo](https://regulense.onrender.com). It runs on a free tier, so the first request can take about a minute to wake the server.
 
 ## Use it for another regulator
 
